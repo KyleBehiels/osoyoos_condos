@@ -1,0 +1,41 @@
+@font-face{
+	font-family: quicksand;
+	src:url(fonts/quicksand_book.otf);
+}
+@keyframes navTransition{
+	from{
+		background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);;
+		color:black;
+	}
+	to{
+		background: linear-gradient(to bottom, rgba(153,153,153,1) 0%, rgba(148,148,148,1) 50%, rgba(140,140,140,1) 51%, rgba(171,171,171,1) 100%);
+		color:white;
+	}
+}
+html{
+	font-family: quicksand;
+}
+
+nav > ul{
+	text-align: center;
+	background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+	width: 100%;
+	padding: 10px;
+	position: fixed;
+	z-index: 3;
+	top: 0px;
+	margin-top: 0px;
+}
+
+nav > ul > li{
+	display: inline;
+	margin: 0px;
+	padding: 10px;
+	font-family: quicksand;
+	font-size: 20px;
+
+}
+nav > ul > li:hover{
+	animation: navTransition 0.5s ease-in-out forwards;
+	cursor: pointer;
+}

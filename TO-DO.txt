@@ -1,0 +1,5 @@
+-Eliminate javascript dependency for div positioning
+
+-Get google API approval for reduced pricing
+
+-Ask client about layout and format

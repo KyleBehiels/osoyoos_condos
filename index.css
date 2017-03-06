@@ -1,0 +1,54 @@
+#home{
+	text-align: center;
+	padding:30px;
+}
+#home > h1{
+	font-size: 30px;
+}
+#home > p{
+	font-size:20px;
+}
+#home > img{
+	width: 40%;
+}
+
+#oroville_grass{
+	width: 100%;
+	z-index: 0;
+	position: absolute;
+}
+#the_town{
+	background-color: grey;
+	height: auto;
+}
+
+#the_town_words{
+	z-index: 1;
+	color: white;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	top: 0px;
+	background-color: rgba(0,0,0,0.5);
+
+}
+#the_town_words > h2{
+	font-size: 300%;
+}
+#the_town_words > p{
+	font-size: 200%;
+}
+#the_town_description{
+	position: relative;
+}
+#the_town_description > #orville_map{
+	width: 30vw;
+	height: 30vw;
+	float:left;
+	display: inline;
+}
+#the_town_description > #the_town_words{
+	background:none;
+	color:black;
+	font-size: 50%;
+}
