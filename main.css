@@ -1,0 +1,16 @@
+nav>ul>li>a{
+	color: #2f96af;
+}
+.first{
+	margin-top: 20px;
+}
+div > img{
+	max-width: 100%;
+	padding:10px;
+}
+#Header > #subscribe{
+	float:right;
+}
+.half_width{
+	max-width: calc(100% / 2);
+}

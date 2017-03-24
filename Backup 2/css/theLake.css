@@ -1,0 +1,42 @@
+#theLakeNav > a {
+	background-color: white;
+	color: black;
+}
+#intro > p{
+	text-align: left;
+	columns: 2;
+	background-color: 
+}
+#intro{
+	background-size: cover;
+	padding: 50px;
+	margin-top:50px;
+	margin-left: auto;
+	margin-right: auto;
+	height: calc(100vw/1.77);
+	max-height: 576px;
+}
+#tourism{
+	background-size: cover;
+	padding: 50px;
+	height: calc(100vw/1.65);
+}
+.text_over{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	padding: 10px;
+}
+@media (max-width: 500px){
+	#intro > p{
+		columns: 1;
+	}
+	#intro{
+		padding-top: 0px;
+		padding-right: 5px;
+		padding-left: 5px;
+		padding-bottom: 50px;
+		margin: 0px;
+		width: 100%;
+	}
+}
+

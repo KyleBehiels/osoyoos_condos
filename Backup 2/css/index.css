@@ -1,0 +1,37 @@
+#home{
+	background-size: cover;
+	height: calc(100vw/1.91);
+}
+#homeNav > a{
+	background-color: white;
+	color:black;
+	padding: 10px;
+}
+#hiking > div > img{
+	width:45%;
+	display: inline-block;
+	float: left;
+	margin: 10px;
+}
+#wine_tasting > img{
+	margin-top: 15px;
+}
+#wine_tasting > #learn_more{
+	display: block;
+}
+#wine_tasting > #learn_more > a{
+	background-color: #2f57bc;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	border:2px solid black;
+
+}
+
+
+@media (max-width: 500px){
+	#hiking > div > img{
+		width: 90%;
+	}
+}

@@ -1,56 +1,70 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" type="text/css" href="main.css">
 <head>
-	<title>Osoyoos Condos</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<link rel="stylesheet" type="text/css" href="all_pages.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<title>Sonora Shores</title>
 </head>
 <body>
+<div id="Header" class="page-header text-center">
+	<h1>Sonora Shores<br><small>Your premier vacation destination.</small></h1>
+	<div id="subscribe" class="text-muted">
+		<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+		<label for="email_address">Subscribe for updates</label> | 
+		<input id="email_address" type="text" name="email" placeholder="email adress...">
+		<button>Subscribe</button>
+	</div>
+</div>
 <nav>
-	<ul>
-		<li>Home</li>
-		<li>The Town</li>
-		<li>The Lake</li>
-		<li>Condos</li>
-		<li>About</li>
-		<li>Contact Us</li>
-	</ul>
+<ul class="nav nav-tabs">
+	<li role="presentation" class="active"><a href="">Home</a></li>
+	<li role="presentation"><a href="#">The Lake</a></li>
+	<li role="presentation"><a href="#">Oroville</a></li>
+	<li role="presentation"><a href="#">The Lake</a></li>
+	<li role="presentation"><a href="#">Our Properties</a></li>
+	<li role="presentation"><a href="#">About Us</a></li>
+	<li role="presentation"><a href="#">Contact Us</a></li>
+</ul>
 </nav>
-<div id="home" >
-	<h1>Sonora Shores</h1>
-	<p>Romantic Waterfront Condos in heart of downtown Oroville. Be enchanted along the scenic paths to Lake Osoyoos and the Okanogan River. Watch the Bald Eagle and Osprey fish, the Blue Heron roost and the occasional group of White Pelicans preen. Greet your friends by boat at Sonora Shores private dock and head to the main Lake body for skiing, fishing, swimming and tootling. One and two bedroom upscale private homes with tall ceilings, granite, concrete stamps, heat pumps and designer Sonoran Desert soothing colors.</p>
-	<img src="pictures/sonora_one.jpg">
-	<img src="pictures/sonora_two.jpg">
+<!--This is the INTRO-->
+
+<div class="container col-sm-12">
+	<div class="panel  panel-default" id="intro">
+		<div class="panel-heading"><h3>Welcome to Sonora Shores!</h3></div>
+		<div class="panel-body"><p>This is a test paragraph for the test panel body just going to make it a little longer here...This is a test paragraph for the test panel body just going to make it a little longer here...This is a test paragraph for the test panel body just going to make it a little longer here...This is a test paragraph for the test panel body just going to make it a little longer here...This is a test paragraph for the test panel body just going to make it a little longer here...This is a test paragraph for the test panel body just going to make it a little longer here...</p>
+		</div>
+	</div>
+</div>
+
+<!--This is the RIGHT column-->
+<div class="row">
+	<div class="container col-sm-6 pictures">
+		<img src="https://placehold.it/560x560">
+	</div>
+	<div class="container col-sm-6 support_text">
+		<div class="panel panel-info">
+			<div class="panel-heading"><h4>Okanagan Valley <small>Beauty and Adventure</small></h4></div>
+			<div class="panel-body">
+				<p>PLACEHOLDER: The Okanagan Valley is home to the Syilx, commonly known as the Okanagan people, an Interior Salish people who live in the valley from the head of Okanagan Lake downstream to near the river's confluence with the Columbia River in present-day Washington, as well as in the neighbouring Similkameen Valley and the Upper Nicola to the north of that, though the whole of their traditional territory encompasses the entire Columbia River watershed and includes areas east of the Okanogan River in Washington, i.e. the Colville Reservation. At the height of Okanagan culture, about 3000 years ago, it is estimated that 12,000 people lived in this valley and surrounding areas. The Okanagan people employed an adaptive strategy, moving within traditional areas throughout the year to fish, hunt, or collect food, while in the winter months, they lived in semi-permanent villages of kekulis, a type of pithouse.[4] Today the member bands of the Okanagan Nation Alliance are sovereign nations, with vibrant natural resource and tourism based economies. Their annual August gathering near Vernon is a celebration of the continuance of Syilx life and culture.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-6 support_text">
+		<div class="panel panel-info">
+			<div class="panel-heading"><h4>Oroville, WA <small>Welcoming and fun</small></h4></div>
+			<div class="panel-body">
+				<p>PLACEHOLDER: Most of the economy of Oroville and the surrounding areas is based on agriculture. Numerous orchards and a few grape vineyards are within the town limits. During Oroville's heyday as a mining town, many saloons, restaurants, shops, and a drive-in movie theater were there.[10] Today, the town's economy is depressed with a nearly 30% poverty rate and a median household income of only $22,000. Recently, three vacation cottage developments have been built, two east of Lake Osoyoos, Sandalia, and the Veranda Beach Resort, and one just north of downtown, Sonora Shores.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-6 pictures">
+		<img src="https://placehold.it/1080x720">
+	</div>
 	
 </div>
-<div id="the_town" class="section">
-	<img id="oroville_grass" src="pictures/oroville_lake.jpg">
-	<div id="the_town_words">
-		<h2>The Town</h2>
-		<p>Welcome to Oroville, WA</p>
-	</div>
-</div>
-<div id="the_town_description" class="section">
-	<iframe id="orville_map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCCMlQBjm1jMNtz2vOy9GvOYCMhyHtQlbk&q=Oroville,WA"></iframe>
-
-	<div id="the_town_words">
-		<h2>Oroville, WA</h2>
-		<p>Oroville Washington is located 4 miles south of the Canadian Border on Highway 97.  The green pastures and orchards of the valley floor contrast beautifully with the rugged cliffs and glacial features of the Okanogan country. <br><br>There are many activities available in our area including camping, fishing, boating and a variety of water sports.  During the winter months there are a multitude of snow sports to partake in.  In our surrounding area there is hiking, biking and horseback trails, such as the Similkameen Trail, Whistler Canyon Trail and plenty of ATV trails.  In addition , there are museums to visit, local wineries for wine tasting, and of course, a scenic 18-hole golf course.</p>
-		
-	</div>
-	<script type="text/javascript" src="index.js"></script>
-</div>
-<div id="condos" class="section">
-</div>
-<div id="about" class="section">
-</div>
-<div id="contact_us" class="section">
-</div>
-
-
-<!--SCRIPTS-->
-
 
 </body>
 </html>

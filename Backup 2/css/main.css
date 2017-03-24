@@ -1,0 +1,98 @@
+@keyframes navHover{
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0.5;
+	}
+}
+html{
+	font-family: sans-serif;
+}
+header{
+	background-color: #5e7cff;
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 10px;
+	margin: 0px;
+	/*HEIGHT == 100px total */
+}
+body{
+	margin:0px;
+}
+nav{
+	margin:0px;
+}
+nav > ul{
+	text-align: center;
+	list-style-type: none;
+	padding: 10px;
+	height: 20px;
+	margin: 0px;
+	background-color: #a3b4ff;
+	overflow: hidden;
+	/*Height is 40px I think */
+}
+nav > ul > li {
+	list-style-type: none;
+	display: inline-block;
+	color: white;
+	padding: 10px 10px;
+	background-color: #a3b4ff;
+	margin: 0px;
+}
+nav > ul > li > a{
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+}
+nav > ul > li:hover{
+	animation: navHover 0.2s ease-in-out forwards;
+	cursor: pointer;
+
+}
+.text_box_on_picture{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	padding: 10px;
+	margin-top: 30px;
+	float: left;
+}
+
+.section_div{
+	margin: 20px 0px;
+	padding: 0px 20px;
+
+
+}
+.text_box{
+	line-height: 1.5;
+	padding: 0px 20px;
+	text-align: center;
+	max-width: 800px;
+	display: block;
+	margin: auto;
+}
+.stand_alone_image{
+	display: inline;
+	float: left;
+}
+
+/*
+Below is the style for mobile
+*/
+@media (min-width: 600px){
+	.text_box_on_picture{
+		width: 50%;
+	}
+
+}
+@media (max-width: 600px){
+	.text_box{
+		width: 70vw;
+	}
+	.text_box > img{
+		width: 100vw;
+	}
+}
