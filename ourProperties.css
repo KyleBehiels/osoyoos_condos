@@ -1,0 +1,28 @@
+.half_width{
+	display: inline-block;
+}
+ul{
+	display: inline-block;
+}
+ul > button{
+	margin-top: 20px;
+}
+.unit-panel{
+
+}
+
+
+.panel-body>img{
+
+	float: left;
+
+}
+#dock{
+	width: 80%;
+	margin-top: 25px;
+}
+
+
+.list-and-button{
+	margin-top: 35px;
+}

@@ -1,6 +1,24 @@
 nav>ul>li>a{
 	color: #2f96af;
 }
+nav{
+	padding-top: 20px;
+	padding-left: 40px;
+}
+.page_content{
+	padding: 20px;
+}
+div > p{
+	font-size: 17px;
+}
+div>ul>li{
+	font-size: 17px;
+	list-style-type: circle;
+
+}
+hr{
+	border: 2px solid LightBlue;
+}
 .first{
 	margin-top: 20px;
 }
@@ -13,4 +31,37 @@ div > img{
 }
 .half_width{
 	max-width: calc(100% / 2);
+}
+#right_footer{
+	float: right;
+	padding: 10px;
+}
+
+#left_footer{
+	float: left;
+	padding: 10px;
+}
+.panel-info{
+	margin-top: 10px;
+}
+#Header > h1{
+	background-color: rgba(255,255,255,0.8);
+	margin-right: 10%;
+	margin-left: 10%;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#Header > #subscribe{
+	background-color: rgba(255,255,255,0.8);
+	padding: 5px;
+
+}
+#Header{
+	background-image: url('images/lake_panorama_radial_dim.png');
+	background-size: cover;
+	margin:0px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+
 }
