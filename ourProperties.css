@@ -7,22 +7,29 @@ ul{
 ul > button{
 	margin-top: 20px;
 }
-.unit-panel{
-
+#un-cooperative{
+	float: left;
+	display: block;
+	text-align: center;
+	width: 100%;
 }
-
-
 .panel-body>img{
 
 	float: left;
 
 }
 #dock{
-	width: 80%;
+	width: 100%;
 	margin-top: 25px;
 }
 
 
 .list-and-button{
 	margin-top: 35px;
+}
+
+#introPictures{
+	background-color: #eaeaea;
+	border: 2px solid LightBlue;
+	border-radius: 10px;
 }

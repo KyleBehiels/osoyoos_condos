@@ -22,6 +22,15 @@ hr{
 .first{
 	margin-top: 20px;
 }
+#full_logo{
+	max-width: 200px;
+	padding-left: 20px;
+	float: right;
+	padding-top: 0px;
+	margin-top: 0px;
+	position: absolute;
+	top: 50px;
+}
 div > img{
 	max-width: 100%;
 	padding:10px;
@@ -37,9 +46,16 @@ div > img{
 	padding: 10px;
 }
 
+.figure-caption{
+	background-color: LightGrey;
+}
+
 #left_footer{
 	float: left;
 	padding: 10px;
+}
+.middle_footer{
+	padding-top: 70px;
 }
 .panel-info{
 	margin-top: 10px;
@@ -63,5 +79,6 @@ div > img{
 	margin:0px;
 	padding-top: 20px;
 	padding-bottom: 40px;
+
 
 }

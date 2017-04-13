@@ -1,0 +1,27 @@
+@keyframes enlarge{
+	from{
+		width: 33%;
+	}
+	to{
+		width: 66%;
+	}
+}
+@keyframes shrink{
+	from{
+		width: 66%;
+	}
+	to{
+		width: 33%;
+	}
+}
+
+img{
+	width: 33%;
+	animation: shrink 0.5s ease-in-out forwards;
+}
+img:hover{
+	cursor: pointer;
+}
+.fullScreen{
+	animation: enlarge 0.5s ease-in-out forwards;
+}

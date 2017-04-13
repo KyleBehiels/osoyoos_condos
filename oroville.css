@@ -1,0 +1,8 @@
+figure>img{
+	width: 100%;
+}
+figure{
+	border:2px solid LightBlue;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
